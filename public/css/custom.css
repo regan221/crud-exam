@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login-image{
+    height: 100vh;
+}
+
+
+.pagination-button a, .pagination-button span {
+    text-decoration: none;
+    color: gray;
+
+}
+
+@media only screen and (min-width: 761px) {
+
+}
+
+@media only screen and (max-width: 760px) {
+    .login-image {
+        display: none;
+    }
+  }
